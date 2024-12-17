@@ -1,0 +1,282 @@
+﻿body {
+    background-color: antiquewhite;
+}
+
+.stickyhead {
+    position: sticky;
+    top: 1px;
+    background-color: coral !important;
+    display: flex;
+}
+
+.stickydiv {
+    position: sticky;
+    top: 95px;
+}
+
+.stickydiv2 {
+    position: sticky;
+    top: 200px;
+    
+}
+
+a.no-underline {
+    text-decoration: none;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+a.kategori {
+    text-align: center;
+    font-size: large;
+    font-family: monaco;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+.head1 {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 150px;
+    padding-left: 250px;
+    display: flex;
+}
+
+.head2 {
+    width: 400px;
+    height: 60;
+    margin-bottom: auto;
+}
+
+.figure1_p1 {
+    color: white;
+    display: inline;
+}
+
+.figure1_p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: inline;
+}
+
+.home1 {
+    display: flex;
+    padding-left: 200px;
+    margin-right: 300px;
+}
+
+.home2 {
+    background-color: white !important;
+    width: 1200px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:  20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.home_l {
+    padding-right: 150px;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.categories {
+    color: black;
+}
+
+.figure2 {
+    display: flex;
+    width :150px;
+    height :150px;
+}
+
+.home_style {
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 400px;
+    margin-bottom: 100px;
+    margin-top:200px;
+}
+
+
+.card img {
+    max-width:100%;
+    max-height:100%;
+    border-radius:15px;
+}
+.card video {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.steps {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.steps img {
+    max-height:250px;
+    max-width:250px;
+    border-radius:15px;
+}
+.modalG {
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, .6);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.modalG form {
+    position:relative;
+    min-width:25%;
+    min-height:30%;
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    background-color:white;
+    border-radius:1.5rem;
+    font-size:1.2rem;
+    align-items: center;
+    justify-content:center;
+}
+
+.modalG form input {
+    margin:0.7rem;
+    padding:0.3rem;
+    font-size:1.2rem;
+    width:93%;
+}
+
+.modalG form span {
+    max-width:10px;
+    top:0;
+    right:0;
+    cursor:pointer;
+}
+
+    .modalG form button {
+        margin-top:20px;
+        background-color: #007BFF;
+        color: white;
+        max-width: 30%;
+        border: none;
+        border-radius:5px;
+        padding:10px;
+    }
+
+
+#modalG-kapat {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+    #modalG-kapat:hover {
+        color: red;
+    }
+
+    .modalK {
+        position: fixed;
+        display: none;
+        background-color: rgba(0, 0, 0, .6);
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .modalK form {
+        position:relative;
+        min-width:25%;
+        min-height:30%;
+        display:flex;
+        flex-direction:column;
+        padding:2rem;
+        background-color:white;
+        border-radius:1.5rem;
+        font-size:1.2rem;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .modalK form input {
+        margin:0.7rem;
+        padding:0.3rem;
+        font-size:1.2rem;
+        width:93%;
+    }
+    
+    .modalK form span {
+        max-width:10px;
+        top:0;
+        right:0;
+        cursor:pointer;
+    }
+    
+        .modalK form button {
+            margin-top:20px;
+            background-color: #007BFF;
+            color: white;
+            max-width: 30%;
+            border: none;
+            border-radius:5px;
+            padding:10px;
+        }
+    
+    
+    #modalK-kapat {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #333;
+    }
+    
+        #modalK-kapat:hover {
+            color: red;
+        }
+
+    .xx {
+        position: fixed;
+        right: 150px;
+        top: 30px;
+    }
